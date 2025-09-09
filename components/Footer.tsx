@@ -13,7 +13,8 @@ export default function Footer() {
               Silverados Dog Park
             </h3>
             <p className="text-gray-300 mb-6 leading-relaxed max-w-md">
-              Where dogs, live music, and cold drinks meet in perfect harmony. Family-friendly dog park with live entertainment in Black Mountain, NC.
+              <span className="text-yellow-400 font-semibold text-lg block mb-2">🎵 Live Music • 🥤 Cold Brews • 🐕 Happy Pups</span>
+              Family-friendly dog park with live entertainment in Black Mountain, NC. Where premium dog-friendly entertainment meets mountain paradise.
             </p>
             <div className="space-y-2 text-sm text-gray-400">
               <p>2898 US Highway 70, Black Mountain, NC</p>

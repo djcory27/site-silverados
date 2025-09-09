@@ -48,6 +48,7 @@ export default function NewsletterSignup({ variant = 'inline' }: NewsletterSignu
               STAY IN THE <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">LOOP</span>
             </h2>
             <p className="text-xl text-blue-100 mb-12 leading-relaxed">
+              <span className="text-yellow-300 font-semibold text-lg block mb-4">🎵 Live Music • 🥤 Cold Brews • 🐕 Happy Pups</span>
               Get exclusive access to events, special offers, and be the first to know about new features at Silverados.
             </p>
 
@@ -137,7 +138,8 @@ export default function NewsletterSignup({ variant = 'inline' }: NewsletterSignu
               JOIN THE <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">PACK</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Be part of our amazing community! Get exclusive event invites, dog care tips, special offers, and behind-the-scenes content.
+              <span className="text-blue-600 font-semibold">🎵 Live Music • 🥤 Cold Brews • 🐕 Happy Pups</span><br />
+              Get exclusive access to events, special offers, and be the first to know about new features at Silverados.
             </p>
           </div>
 

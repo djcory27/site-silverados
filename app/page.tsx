@@ -220,7 +220,8 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl text-white/90 mb-12 max-w-4xl leading-relaxed font-light drop-shadow-lg">
-              Where dogs, live music, and cold drinks meet in perfect harmony. Experience premium dog-friendly entertainment in the heart of the mountains.
+              <span className="text-yellow-300 font-semibold text-xl md:text-2xl lg:text-3xl block mb-4">🎵 Live Music • 🥤 Cold Brews • 🐕 Happy Pups</span>
+              Where premium dog-friendly entertainment meets mountain paradise. Experience the perfect blend of live music, craft beverages, and joyful canine companions in the heart of the Blue Ridge Mountains.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 items-center animate-fade-in" style={{ animationDelay: '0.5s' }}>
               <a
