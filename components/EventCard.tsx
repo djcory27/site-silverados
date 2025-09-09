@@ -19,7 +19,7 @@ interface EventCardProps {
 export default function EventCard({ e }: EventCardProps) {
   return (
     <article
-      className="card group relative overflow-hidden hover:scale-105 transition-all duration-500 hover:shadow-glass animate-fade-in cursor-pointer"
+      className="card group relative overflow-hidden hover:scale-105 transition-all duration-500 hover:shadow-glass animate-fade-in cursor-pointer card-advanced magnetic-hover will-change-transform gpu-accelerated focus-ring-advanced"
       role="article"
       aria-labelledby={`event-${e.id}-title`}
     >
@@ -57,7 +57,7 @@ export default function EventCard({ e }: EventCardProps) {
 
         <h3
           id={`event-${e.id}-title`}
-          className="text-xl font-bold text-brand-dark mb-3 group-hover:text-brand-primary transition-colors duration-300 leading-tight"
+          className="text-xl font-bold text-brand-dark mb-3 group-hover:text-brand-primary transition-colors duration-300 leading-tight group-hover:animate-pulse"
         >
           {e.title}
         </h3>
@@ -71,7 +71,7 @@ export default function EventCard({ e }: EventCardProps) {
         <div className="flex items-center justify-between gap-3">
           {e.price && (
             <span
-              className="inline-flex items-center px-3 py-1.5 rounded-full bg-gradient-to-r from-brand-primary/10 to-brand-accent/10 text-brand-primary font-semibold text-sm border border-brand-primary/20 hover:border-brand-primary/40 transition-colors duration-300"
+              className="inline-flex items-center px-3 py-1.5 rounded-full bg-gradient-to-r from-brand-primary/10 to-brand-accent/10 text-brand-primary font-semibold text-sm border border-brand-primary/20 hover:border-brand-primary/40 transition-colors duration-300 hover-glow"
               aria-label={`Price: ${e.price}`}
             >
               {e.price}
@@ -80,7 +80,7 @@ export default function EventCard({ e }: EventCardProps) {
 
           {e.ticketUrl && (
             <Link
-              className="btn-primary inline-flex items-center gap-2 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl group/btn"
+              className="btn-primary inline-flex items-center gap-2 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl group/btn hover-lift focus-ring-advanced liquid-button"
               href={e.ticketUrl}
               aria-label={`Get tickets for ${e.title}`}
             >

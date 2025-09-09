@@ -1,0 +1,27 @@
+# Security.txt file for Silverados Dog Park
+# Follows RFC 9116 standard for security policy disclosure
+# https://silveradosdogpark.com/.well-known/security.txt
+
+# Contact information for security researchers
+Contact: security@silveradosdogpark.com
+
+# Encryption key for secure communications
+Encryption: https://silveradosdogpark.com/.well-known/security.asc
+
+# Preferred languages for security reports
+Preferred-Languages: en
+
+# Security policy and disclosure guidelines
+Policy: https://silveradosdogpark.com/security-policy
+
+# Acknowledgment of security reports
+Acknowledgments: https://silveradosdogpark.com/security-acknowledgments
+
+# Hiring information for security researchers
+Hiring: https://silveradosdogpark.com/careers
+
+# Canonical URL
+Canonical: https://silveradosdogpark.com/.well-known/security.txt
+
+# Expires (update annually)
+Expires: 2026-01-08T00:00:00.000Z

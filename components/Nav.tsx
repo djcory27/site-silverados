@@ -32,7 +32,7 @@ export default function Nav() {
   return (
     <header
       className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
+        "fixed top-0 left-0 right-0 z-50 transition-all duration-500 glass-advanced",
         isScrolled
           ? "bg-brand-dark/95 backdrop-blur-xl border-b border-white/10 shadow-2xl"
           : "bg-gradient-to-b from-brand-dark/90 to-brand-dark/70 backdrop-blur-lg"
@@ -48,14 +48,13 @@ export default function Nav() {
           <div className="absolute inset-0 bg-gradient-to-r from-brand-primary/20 to-brand-accent/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg" />
         </Link>
 
-        {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center gap-1">
           {links.map((l, index) => (
             <Link
               key={l.href}
               href={l.href}
               className={cn(
-                "relative px-4 py-2 rounded-lg font-medium transition-all duration-300 group",
+                "relative px-4 py-2 rounded-lg font-medium transition-all duration-300 group hover-lift focus-ring-advanced",
                 pathname === l.href
                   ? "text-white bg-white/10 shadow-lg"
                   : "text-white/90 hover:text-white hover:bg-white/5"
@@ -63,7 +62,8 @@ export default function Nav() {
               style={{ animationDelay: `${index * 50}ms` }}
             >
               {l.label}
-              <span className="absolute bottom-0 left-1/2 w-0 h-0.5 bg-gradient-to-r from-brand-primary to-brand-accent group-hover:w-full group-hover:left-0 transition-all duration-300" />
+              <span className="absolute bottom-0 left-1/2 w-0 h-0.5 bg-gradient-to-r from-brand-primary to-brand-accent group-hover:w-full group-hover:left-0 transition-all duration-300 rounded-full" />
+              <div className="absolute inset-0 bg-gradient-to-r from-brand-primary/10 to-brand-accent/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg" />
             </Link>
           ))}
         </nav>
@@ -72,7 +72,7 @@ export default function Nav() {
         <div className="flex items-center gap-3">
           <Link
             href="/events"
-            className="btn-secondary hidden md:inline-flex items-center gap-2 hover:scale-105 transition-all duration-300"
+            className="btn-secondary hidden md:inline-flex items-center gap-2 hover:scale-105 transition-all duration-300 hover-glow focus-ring-advanced liquid-button"
           >
             <span>See Events</span>
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -81,7 +81,7 @@ export default function Nav() {
           </Link>
           <Link
             href="/memberships"
-            className="btn-primary inline-flex items-center gap-2 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+            className="btn-primary inline-flex items-center gap-2 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl hover-lift focus-ring-advanced neon-glow"
           >
             <span>Buy Day Pass</span>
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

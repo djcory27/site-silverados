@@ -1,0 +1,28 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_next/
+
+# Googlebot
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+
+# Host
+Host: https://silveradosdogpark.com
+
+# Sitemaps
+Sitemap: https://silveradosdogpark.com/sitemap.xml
+Sitemap: https://silveradosdogpark.com/server-sitemap.xml
