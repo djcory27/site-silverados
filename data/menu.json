@@ -1,0 +1,8 @@
+{
+  "categories": [
+    {"name":"Draft Beer","items":[{"name":"Local IPA","price":"$7"},{"name":"Golden Lager","price":"$6"}]},
+    {"name":"Cocktails","items":[{"name":"Smoky Mountain Mule","price":"$10"},{"name":"Blue Ridge Old Fashioned","price":"$12"}]},
+    {"name":"NA & Mocktails","items":[{"name":"Ginger Lime Fizz","price":"$6"},{"name":"NA IPA","price":"$6"}]},
+    {"name":"Snacks","items":[{"name":"Soft Pretzel","price":"$5"},{"name":"Dog Treats (to-go)","price":"$3"}]}
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "rg-0927",
+    "title": "Ricky Gunter — Live on the Outdoor Stage",
+    "date": "Sat, Sep 27",
+    "time": "7:30 PM",
+    "artistImage": "/artists/ricky_gunter.jpg",
+    "ticketUrl": "/tickets/rg-0927",
+    "price": "$15",
+    "blurb": "High-energy country from Western NC."
+  },
+  {
+    "id": "opener-1004",
+    "title": "Mountain Jams Showcase",
+    "date": "Sat, Oct 4",
+    "time": "6:00 PM",
+    "artistImage": "/artists/showcase.jpg",
+    "ticketUrl": "/tickets/opener-1004",
+    "price": "$10",
+    "blurb": "Regional artists and special guests."
+  },
+  {
+    "id": "acoustic-1011",
+    "title": "Sunday Acoustic & Paws",
+    "date": "Sun, Oct 11",
+    "time": "4:00 PM",
+    "artistImage": "/artists/acoustic.jpg",
+    "ticketUrl": "/tickets/acoustic-1011",
+    "price": "Free",
+    "blurb": "Laid-back tunes, dog-friendly vibes."
+  }
+]
