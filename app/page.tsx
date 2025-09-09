@@ -9,6 +9,12 @@ import CursorGlow from "../components/CursorGlow";
 import AdvancedSearch from "../components/AdvancedSearch";
 import { NotificationManager } from "../components/NotificationSystem";
 import AdvancedLoading, { SkeletonCard } from "../components/AdvancedLoading";
+import PhotoGallery from "../components/PhotoGallery";
+import Testimonials from "../components/Testimonials";
+import WeatherWidget from "../components/WeatherWidget";
+import NewsletterSignup from "../components/NewsletterSignup";
+import FAQ from "../components/FAQ";
+import SocialMediaFeed from "../components/SocialMediaFeed";
 import { useState, useEffect, useRef } from "react";
 
 // Extend window interface for notification system
@@ -447,6 +453,26 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* PHOTO GALLERY */}
+      <PhotoGallery />
+
+      {/* TESTIMONIALS */}
+      <Testimonials />
+
+      {/* FAQ SECTION */}
+      <FAQ />
+
+      {/* SOCIAL MEDIA FEED */}
+      <SocialMediaFeed />
+
+      {/* NEWSLETTER SIGNUP */}
+      <NewsletterSignup variant="inline" />
+
+      {/* WEATHER WIDGET - Floating */}
+      <div className="fixed bottom-6 right-6 z-50">
+        <WeatherWidget />
+      </div>
 
       {/* MAP & HOURS */}
       <section className="py-24 bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900 relative overflow-hidden">
