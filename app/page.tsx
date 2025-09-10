@@ -221,14 +221,14 @@ export default function Home() {
             </div>
             <h1
               id="hero-title"
-              className="text-5xl md:text-7xl lg:text-8xl font-black text-white mb-8 leading-[0.9] tracking-tight drop-shadow-2xl"
+              className="text-5xl md:text-7xl lg:text-8xl font-black text-white mb-8 leading-[0.9] tracking-tight drop-shadow-[0_35px_70px_rgba(255,107,53,1)]"
             >
               A NEW BREED OF<br />
               <span className="bg-gradient-to-r from-yellow-400 via-orange-400 to-red-400 bg-clip-text text-transparent">
                 DOG PARK
               </span>
             </h1>
-            <p className="text-lg md:text-xl lg:text-2xl text-white/90 mb-12 max-w-4xl leading-relaxed font-light drop-shadow-lg">
+            <p className="text-lg md:text-xl lg:text-2xl text-white/90 mb-12 max-w-4xl leading-relaxed font-light drop-shadow-[0_20px_40px_rgba(255,107,53,0.9)]">
               <span className="text-yellow-300 font-semibold text-xl md:text-2xl lg:text-3xl block mb-4">🎵 Live Music • 🥤 Cold Brews • 🐕 Happy Pups</span>
               Where premium dog-friendly entertainment meets mountain paradise. Experience the perfect blend of live music, craft beverages, and joyful canine companions in the heart of the Blue Ridge Mountains.
             </p>
