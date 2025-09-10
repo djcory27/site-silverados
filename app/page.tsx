@@ -15,6 +15,15 @@ import WeatherWidget from "../components/WeatherWidget";
 import NewsletterSignup from "../components/NewsletterSignup";
 import FAQ from "../components/FAQ";
 import SocialMediaFeed from "../components/SocialMediaFeed";
+import QuickActions from "../components/QuickActions";
+import ParkMap from "../components/ParkMap";
+import ParkingInfo from "../components/ParkingInfo";
+import AccessibilityFeatures from "../components/AccessibilityFeatures";
+import BreedCompatibility from "../components/BreedCompatibility";
+import DogCareTips from "../components/DogCareTips";
+import LocalAreaGuide from "../components/LocalAreaGuide";
+import MembershipBenefits from "../components/MembershipBenefits";
+import DogNameGenerator from "../components/DogNameGenerator";
 import { useState, useEffect, useRef } from "react";
 
 // Extend window interface for notification system
@@ -275,6 +284,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* QUICK ACTIONS */}
+      <QuickActions />
+
       {/* ATTRACTIONS SECTION */}
       <Section
         id="attractions"
@@ -455,6 +467,21 @@ export default function Home() {
         </div>
       </section>
 
+      {/* INTERACTIVE PARK MAP */}
+      <ParkMap />
+
+      {/* PARKING INFORMATION */}
+      <ParkingInfo />
+
+      {/* ACCESSIBILITY FEATURES */}
+      <AccessibilityFeatures />
+
+      {/* BREED COMPATIBILITY CHECKER */}
+      <BreedCompatibility />
+
+      {/* DOG CARE TIPS */}
+      <DogCareTips />
+
       {/* PHOTO GALLERY */}
       <PhotoGallery />
 
@@ -463,6 +490,12 @@ export default function Home() {
 
       {/* FAQ SECTION */}
       <FAQ />
+
+      {/* LOCAL AREA GUIDE */}
+      <LocalAreaGuide />
+
+      {/* MEMBERSHIP BENEFITS */}
+      <MembershipBenefits />
 
       {/* SOCIAL MEDIA FEED */}
       <SocialMediaFeed />
@@ -474,6 +507,9 @@ export default function Home() {
       <div className="fixed bottom-6 right-6 z-50">
         <WeatherWidget />
       </div>
+
+      {/* DOG NAME GENERATOR */}
+      <DogNameGenerator />
 
       {/* MAP & HOURS */}
       <section className="py-24 bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900 relative overflow-hidden">
